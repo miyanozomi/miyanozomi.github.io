@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset='utf-8'>
-    <title>マイサイト</title>
-  </head>
+  <html lang="ja">
+    <head>
+      <meta charset="utf-8">
+      <title>My Site</title>
+      <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
 
-  <body>
-    <h1>サンプルサイト</h1>
-    <p>成果物として作成しました。</p>
-  </body>
+    <body>
+      <header id="header" class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#link">Link</a></li>
+          </ul>
+        </nav>
+      </header>
 
-</html>
+      <main>
+        <div id="mainvisual">
+          <img src="img/flowers.jpg" alt="テキストテキストテキスト">
+        </div>
+
+        <section id="about" class="wrapper">
+          <h2 class="section-title">About</h2>
+          <div class="content">
+            <div class="text">
+              <h3 class="content-title">説明</h3>
+              <p>
+                成果物として作成しました。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="link" class="wrapper">
+          <h2 class="section-title">Link</h2>
+            <div class="text">
+              <h3 class="content-title"><a href="https://twitter.com/nozomiBOT">Twitter</h3>
+              <h3 class="content-title"><a href="https://github.com/miyanozomi">Github</h3>
+            </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <p>&copy; 2022 Profile</p>
+      </footer>
+
+    </body>
+
+  </html>
